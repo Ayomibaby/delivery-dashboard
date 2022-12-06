@@ -1,0 +1,324 @@
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+   padding-bottom: 10px;
+}
+/* main start */
+main{
+    float:left;
+    width: 70%;
+  
+ 
+}
+input.search{
+    width: 660px;
+    border:none;
+    border-radius: 10px;
+    padding: 10px 50px;
+    float: left;
+    display: block;
+    background:  #f8f8f8 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+    
+}
+nav{
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+form.search{
+    padding-top: 10px ;
+    padding-left: 250px;
+}
+h3{
+    float: left;
+    display: block;
+}
+i.bars{
+    float: left;
+    display: block;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+/* delivery section start */
+div.delivery-section{
+   background-color:  #fef7ec; ;
+   margin-left: 50px;
+   margin-right: 100px;
+   border-radius: 20px;
+   padding: 10px 20px 40px; 
+}
+div.deliveryContentDiv{
+    margin-top: 70px;
+    
+}
+h1.delivery{
+    color: #FB6D3B ;
+    font-size: 30px;
+    line-height: 3px;
+ 
+}
+a.delivery{
+    color: #FB6D3B;
+    
+}
+p.delivery{
+    font-size: 14px;
+    /* color: #ECE4Dc; */
+    letter-spacing: 0.5px;
+    color: gray;
+ 
+}
+img.deliveryImg{
+    float: left;
+    padding-right: 100px;
+}
+
+span.link-wrap{
+   padding-left: 380px;
+}
+
+/* delivery section end */
+
+/* restaurant section start */
+.clock{
+    display: inline;
+    padding-right: 5px;
+    color: white;
+ }
+ .Restaurants{
+    display: inline-block;
+    padding-right: 570px;
+ }
+ .dropdown{
+    display: inline-block;
+    background-color: #FB6D3B;
+    padding: 10px;
+    border-radius: 50px;
+ }
+div.Restaurants-div{
+    padding-left: 50px ;
+    padding-top: 40px;
+}
+div.components{
+    padding-top: 40px;
+}
+.all{
+    border: 1px ;
+    width: 50px;
+    height: 120px;
+    display: inline-block; 
+    border-radius: 50px;
+    margin-right: 20px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 2px 5px #fdfdfd, 2px 2px 5px 10px  #fdfdfd, 2px 2px 2px 20px  #fdfdfd;
+   
+}
+div.food-icondiv{
+    border: 1px solid gray;
+    border-radius: 100%;
+    padding: 10px;
+}
+div.btn-div{
+    display: inline-block;
+    padding-left: 120px;
+    color: #FDFDFb;
+}
+.next-btn{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+div.menu:hover{
+    background-color: #FCD661;
+}
+/* restaurant section end */
+
+/* food options section */
+
+div.food-options{
+ padding-top: 70px;
+ padding-left: 50px;
+}
+img.bread{
+    width: 250px;
+    height: 100px;
+    border-radius: 10%;
+   
+}
+.time-rangeDiv{
+    border-top-right-radius: 10px;
+    
+    background-color: #FDFDFB;
+    padding: 2px 5px 2px 5px;
+    color: black;
+    position: relative;
+    margin-top: -45px;
+    width: 75px;
+    height: 40px;
+}
+
+.bread-div{
+   display: inline-block;
+   padding-right: 70px;
+}
+.details-div{
+    padding-top: 0;
+    
+}
+ul{
+    color: gray;
+    float: left;
+    padding-left: 15px;
+    line-height: 0;
+}
+li{
+    display: inline-block;
+    padding-right: 5px;
+   
+   
+}
+p.rating{
+    display: inline-block;
+   float: left;
+   line-height: 0;
+}
+.details-heading{
+    padding-bottom: 0;
+    line-height: 0;
+}
+
+/* main end */
+
+
+/* 
+side bar start*/
+aside.side-bar{
+    background-color: #FDFDFB;
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+.nav-btn{
+    background-color: #FCD661;
+    padding: 8px 12px;
+    border-radius: 12px;
+    border: none;
+}
+.aside-nav{
+    padding-top: 30px;
+    padding-left: 300px;
+    padding-bottom: 0;
+}
+i.user{
+    padding-right: 30px;
+}
+div.my-order{
+    margin-left: 40px;
+}
+h1.order-heading{
+    font-size: 30px;
+}
+div.delivery-details{
+    background-color: #503E9D;
+    color: white;
+   margin-right: 80px;
+   margin-bottom: 40px;
+   padding: 0 20px 20px;
+   border-radius: 20px;
+   font-size: small;
+}
+.DD-text{
+    display: inline-block;
+    padding-right: 20px;
+}
+.address{
+   padding-right: 125px;
+}
+.time{
+    padding-right: 100px ;
+    
+}
+.edit{
+    color: #FCD661;
+}
+.choose-time{
+    color: #FCD661;
+}
+
+.order{
+    width: 60px;
+    height: 40px;
+    display: block;
+    padding-bottom: 20px;
+    float: left;
+    padding-right: 20px;
+   
+}
+
+
+.pricing{
+    color: gray;
+    padding-left: 40px;
+    
+}
+
+.order-details{
+    margin-left: -30px;
+    margin-right: 0;
+}
+.truck{
+   border-radius: 20px;
+    color: #FB6D3B;
+    background-color: #fef7ec;
+    padding-left: 20px;
+   
+   
+}
+
+/* checkout section */
+footer{
+    padding-top: 40px;
+}
+.total{
+    display: inline-block;
+   padding-right: 250px;
+   font-size: 20px;
+}
+.total-amount{
+    display: inline-block;
+    font-size: 25px;
+   
+}
+
+.checkout-div{
+    position: absolute;
+    margin-left: 199px;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    margin-right: 0;
+    background-color: #FCD661;
+   padding: 25px 70px;
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px ;
+   font-size: small;
+}
+
+.plusandminus{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0;
+    
+}
+.sign{
+    display: inline-block;
+    padding-left: 15px;
+}
+.minus{
+    padding-right: 5px;
+}
+/* side bar end */
