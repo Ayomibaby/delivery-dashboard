@@ -4,6 +4,10 @@ body{
     font-family: sans-serif;
    padding-bottom: 10px;
 }
+div.container{
+    width: 80%;
+    margin: auto;
+}
 /* main start */
 main{
     float:left;
